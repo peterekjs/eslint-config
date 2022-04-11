@@ -1,0 +1,27 @@
+{
+  "folders": [
+    {
+      "name": "✨ @peterek/eslint-config-monorepo",
+      "path": "."
+    },
+    {
+      "name": "📦 @peterek/eslint-config-base",
+      "path": "packages/eslint-config-base"
+    },
+    {
+      "name": "📦 @peterek/eslint-config-js",
+      "path": "packages/eslint-config-js"
+    },
+    {
+      "name": "📦 @peterek/eslint-config-ts",
+      "path": "packages/eslint-config-ts"
+    },
+    {
+      "name": "📦 @peterek/eslint-config-vue",
+      "path": "packages/eslint-config-vue"
+    }
+  ],
+  "settings": {
+    "editor.tabSize": 2
+  }
+}

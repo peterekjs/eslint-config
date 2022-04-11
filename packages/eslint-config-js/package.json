@@ -1,0 +1,38 @@
+{
+  "name": "@peterek/eslint-config-js",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "ESLint configuration for JavaScript projects",
+  "keywords": [
+    "eslint",
+    "prettier",
+    "standard"
+  ],
+  "author": {
+    "name": "Jiri Peterek",
+    "email": "jiri@peterek.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterekjs/eslint-config.git"
+  },
+  "sideEffects": false,
+  "main": "./index.js",
+  "dependencies": {
+    "@babel/eslint-parser": "^7.17.0",
+    "@peterek/eslint-config-base": "^0.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "eslint": "^8.13.0",
+    "prettier": "2.6.2"
+  },
+  "bugs": {
+    "url": "https://github.com/peterekjs/eslint-config/issues"
+  },
+  "homepage": "https://github.com/peterekjs/eslint-config#readme"
+}
