@@ -1,6 +1,6 @@
 {
   "name": "@peterek/eslint-config-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "description": "ESLint configuration for TypeScript projects",
   "keywords": [
@@ -20,23 +20,22 @@
   "sideEffects": false,
   "main": "./index.js",
   "dependencies": {
-    "@peterek/eslint-config-base": "^1.0.0",
-    "@typescript-eslint/eslint-plugin": "^5.19.0",
-    "@typescript-eslint/parser": "^5.19.0",
-    "eslint-config-standard": "^17.0.0-1",
-    "eslint-import-resolver-node": "^0.3.6"
+    "@peterek/eslint-config-base": "^1.0.2",
+    "@typescript-eslint/eslint-plugin": "^5.59.0",
+    "@typescript-eslint/parser": "^5.59.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-import-resolver-node": "^0.3.7"
   },
   "peerDependencies": {
     "eslint": "^8.0.0",
     "prettier": "^2.0.0"
   },
   "devDependencies": {
-    "eslint": "^8.13.0",
-    "prettier": "2.6.2",
-    "typescript": "^4.6.3"
+    "typescript": "^5.0.0"
   },
   "bugs": {
     "url": "https://github.com/peterekjs/eslint-config/issues"
   },
-  "homepage": "https://github.com/peterekjs/eslint-config#readme"
+  "homepage": "https://github.com/peterekjs/eslint-config#readme",
+  "gitHead": "9aeaa7da2e533e8ef1a025d854c50bf2dd5ed3c4"
 }
