@@ -1,6 +1,6 @@
 {
   "name": "@peterek/eslint-config-vue",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "license": "MIT",
   "description": "ESLint configuration for Vue.js projects",
   "keywords": [
@@ -22,8 +22,8 @@
   "sideEffects": false,
   "main": "./index.js",
   "dependencies": {
-    "@peterek/eslint-config-base": "^0.0.0",
-    "@peterek/eslint-config-ts": "^0.0.0",
+    "@peterek/eslint-config-base": "^1.0.0",
+    "@peterek/eslint-config-ts": "^1.0.0",
     "@typescript-eslint/eslint-plugin": "^5.19.0",
     "@typescript-eslint/parser": "^5.19.0",
     "@vue/eslint-config-prettier": "^7.0.0",

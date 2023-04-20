@@ -1,6 +1,6 @@
 {
   "name": "@peterek/eslint-config-js",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "license": "MIT",
   "description": "ESLint configuration for JavaScript projects",
   "keywords": [
@@ -20,7 +20,7 @@
   "main": "./index.js",
   "dependencies": {
     "@babel/eslint-parser": "^7.17.0",
-    "@peterek/eslint-config-base": "^0.0.0"
+    "@peterek/eslint-config-base": "^1.0.0"
   },
   "peerDependencies": {
     "eslint": "^8.0.0",
